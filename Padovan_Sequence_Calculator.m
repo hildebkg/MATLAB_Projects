@@ -1,9 +1,9 @@
 clear; clc;
 
-% allows user to specify how many terms they want calculated
+% allows user to specify how many terms they want calculated:
 n = input('Please enter the number of terms you want: ');
 
-% forces user to give valid number of terms (1 or more)
+% forces user to give valid number of terms (1 or more):
 while (n < 1)
     n = input('Please enter a valid number of terms: ');
 end
